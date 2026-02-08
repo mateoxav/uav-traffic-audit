@@ -1,0 +1,30 @@
+# --- Tu lista original ---
+.venv/
+__pycache__/
+*.pyc
+.env
+artifacts/
+data/raw/
+data/processed/
+
+# --- AGREGADO: Empaquetado Python (La carpeta .egg-info) ---
+# Evita subir la carpeta src/uav_traffic_ai.egg-info/
+*.egg-info/
+*.egg
+build/
+dist/
+
+# --- AGREGADO: YOLO / Ultralytics ---
+# Evita subir los logs e imágenes de predicción que genera YOLO
+runs/
+
+# --- AGREGADO: Modelos Pesados ---
+# Evita subir yolov8s.pt (22MB) y otros pesos
+*.pt
+*.pth
+*.onnx
+
+# --- AGREGADO: Sistema y Editores (Recomendado) ---
+.vscode/
+.idea/
+.DS_Store
