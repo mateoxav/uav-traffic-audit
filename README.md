@@ -1,5 +1,13 @@
 # UAV Traffic AI — NeuralHack Demo MVP (YOLO + Métricas + Evidencia en BSV Testnet)
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![YOLOv8](https://img.shields.io/badge/AI-YOLOv8-green)
+![BSV](https://img.shields.io/badge/Blockchain-BSV_Testnet-orange)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
+
+> **Team Singularity**
+> *"La IA que todo lo ve, la Blockchain que nada olvida."*
+
 Sistema **end-to-end** para análisis de tráfico rodado a partir de imágenes UAV:
 **subes imagen/frames → detecta vehículos → calcula métricas → genera evidencia (JSON + hash) → ancla el hash en BSV testnet (OP_RETURN) → verifica con WhatsOnChain**.
 
