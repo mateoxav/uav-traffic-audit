@@ -61,6 +61,8 @@ Por cada análisis se generan:
 4. Marcar **Anclar en BSV testnet** (requiere WIF testnet + fondos)
 5. Ver `TXID` y `Verificado: True`
 6. Mostrar `artifacts/outputs/*.json` con `sha256`, `txid`, `verified`
+![Demo](https://github.com/mateoxav/QubicWork-FrontEnd/raw/9c332fb7bfdb705294af11a11795cfb6faa08866/captura.png)
+Video de demostración: https://youtu.be/0K_S170EhaI
 
 ---
 
